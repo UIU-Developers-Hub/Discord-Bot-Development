@@ -94,3 +94,47 @@ To make your code work in Discord, you need to create a bot user. Click **Add Bo
 
 
 <img width="1876" height="1037" alt="image" src="https://github.com/user-attachments/assets/5912fa3e-20f9-45cb-9851-c08050683f4a" />
+
+
+**4. Adding a Bot to a Guild**
+
+A bot cannot join a server like a normal user. You cannot invite it the usual way.
+Instead, you use something called OAuth2 to add it.
+Simple idea: OAuth2 just helps Discord safely give your bot access.
+To continue, go back to the Developer Portal. Then click the **OAuth2** tab on the left menu.
+
+<img width="1852" height="1024" alt="image" src="https://github.com/user-attachments/assets/fb383d19-c15c-4692-9cda-6ae6d5a7f01a" />
+
+From this page, you will see the **OAuth2 URL Generator.**
+This tool makes a special link. That link lets Discord know your bot is allowed to join and act in a server.
+Here, you want to give your bot access.
+Scroll down. Under **SCOPES**, tick **bot**. Then under **BOT PERMISSIONS**, select **Administrator**.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e1aba032-1734-4f78-aff8-8492abf66cf8" />
+
+Now Discord makes a special link for your bot. It includes the scope and permissions you picked.
+**Quick note:** We used **Administrator** here just for learning. In real use, try to give only the permissions you really need.
+Click **Copy** next to the link. Then paste it in your browser. After that, choose your server (guild) from the list.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e6c218f8-3494-4aa9-9cbf-8261f7b98e30" />
+
+<img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/80da3807-3bb0-4f0f-b6ad-90baca04ad86" />
+
+Click **Authorize**, and that’s it.
+**Note:** You may see a reCAPTCHA first. If it shows up, just complete it to prove you are human.
+Now go back to your server (guild). You will see your bot is added there.
+
+<img width="582" height="760" alt="image" src="https://github.com/user-attachments/assets/c29db0a8-5915-4ed3-9449-72e084df01f0" />
+<img width="529" height="375" alt="image" src="https://github.com/user-attachments/assets/886e2617-da18-4c67-ba38-15bc3bb15ae7" />
+<img width="1287" height="461" alt="image" src="https://github.com/user-attachments/assets/2dd7b7f4-8d20-471c-9723-00dbd5719fff" />
+
+---
+
+In short, you have made:
+
+* An application that lets your bot connect to Discord API
+* A bot user that can talk and react inside your server
+* A server (guild) where you and your bot can stay and work
+* A Discord account that you used to set it all up
+
+Now you know the basic setup for a Discord bot using the Developer Portal. Next part is the fun one, you start building the bot with Python.
