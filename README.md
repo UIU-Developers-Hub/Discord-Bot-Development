@@ -121,6 +121,7 @@ Click **Copy** next to the link. Then paste it in your browser. After that, choo
 <img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/80da3807-3bb0-4f0f-b6ad-90baca04ad86" />
 
 Click **Authorize**, and that’s it.
+
 **Note:** You may see a reCAPTCHA first. If it shows up, just complete it to prove you are human.
 Now go back to your server (guild). You will see your bot is added there.
 
