@@ -162,3 +162,13 @@ In short, you have made:
 * Turned ON the needed Privileged Gateway Intents
 
 Now you know the basic setup for a Discord bot using the Developer Portal. Next part is the fun one, you start building the bot with Python.
+
+---
+
+<div align="center">
+
+### 📖 Continue Reading
+
+<a href="./README2.md">➡️ Go to Page 2</a>
+
+</div>
