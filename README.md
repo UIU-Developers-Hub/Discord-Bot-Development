@@ -128,6 +128,29 @@ Now go back to your server (guild). You will see your bot is added there.
 <img width="529" height="375" alt="image" src="https://github.com/user-attachments/assets/886e2617-da18-4c67-ba38-15bc3bb15ae7" />
 <img width="1287" height="461" alt="image" src="https://github.com/user-attachments/assets/2dd7b7f4-8d20-471c-9723-00dbd5719fff" />
 
+
+**5. Privileged Gateway Intents**
+
+Now follow these steps:
+1. In the left menu, click **Bot**.
+2. Scroll down to the section called **Privileged Gateway Intents**.
+3. You will see a few toggle options like:
+   * Presence Intent
+   * Server Members Intent
+   * Message Content Intent
+4. Turn ON the options you need.
+   Most common setup is:
+
+   * Turn ON **Server Members Intent** (so your bot can see when people join or leave)
+   * Turn ON **Message Content Intent** (so your bot can read messages and respond)
+   * Presence Intent is optional, only if you need status info
+
+5. After that, scroll down a bit.
+6. Click the green **Save Changes** button at the bottom right.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/08a209ea-21ea-469e-8c55-1f73fb1a1bbe" />
+
+Done. Your bot settings are now updated.
+
 ---
 
 In short, you have made:
@@ -136,5 +159,6 @@ In short, you have made:
 * A bot user that can talk and react inside your server
 * A server (guild) where you and your bot can stay and work
 * A Discord account that you used to set it all up
+* Turned ON the needed Privileged Gateway Intents
 
 Now you know the basic setup for a Discord bot using the Developer Portal. Next part is the fun one, you start building the bot with Python.
