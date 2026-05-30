@@ -133,21 +133,21 @@ Now go back to your server (guild). You will see your bot is added there.
 **5. Privileged Gateway Intents**
 
 Now follow these steps:
-1. In the left menu, click **Bot**.
-2. Scroll down to the section called **Privileged Gateway Intents**.
-3. You will see a few toggle options like:
+a) In the left menu, click **Bot**.
+b) Scroll down to the section called **Privileged Gateway Intents**.
+c) You will see a few toggle options like:
    * Presence Intent
    * Server Members Intent
    * Message Content Intent
-4. Turn ON the options you need.
+d) Turn ON the options you need.
    Most common setup is:
 
    * Turn ON **Server Members Intent** (so your bot can see when people join or leave)
    * Turn ON **Message Content Intent** (so your bot can read messages and respond)
    * Presence Intent is optional, only if you need status info
 
-5. After that, scroll down a bit.
-6. Click the green **Save Changes** button at the bottom right.
+e) After that, scroll down a bit.
+f) Click the green **Save Changes** button at the bottom right.
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/08a209ea-21ea-469e-8c55-1f73fb1a1bbe" />
 
 Done. Your bot settings are now updated.
